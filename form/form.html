@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form html</title>
+</head>
+<body>
+
+	<form action="" method="">
+	<!-- elemen form
+	macamnya = 
+	input (kolom), textarea (komentar/pesan), select, button (mengirim data), label (menandai) -->
+	<!-- input = <input type="">
+		ganti type menjadi macam
+	macamnya = 
+	text, password, radio, checkbox, submit, reset, button,... -->
+	<fieldset>
+		<legend>BioData</legend>
+		<label for="username">username : </label>
+		<input type="username" id="username" placeholder="username" value="nama anda">
+		<br>
+		<label for="password">password :</label>
+		<input type="password" id="password" placeholder="password">
+		<br>
+		<input type="radio" id="Pria" name="Jenis-kelamin" value="0" checked><label for="Pria">Pria</label>
+		<input type="radio" id="Wanita" name="Jenis-kelamin" value="1"><label for="Wanita">Wanita</label>
+		<br>
+		<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+		<input type="checkbox" id="olah raga"><label for="olah raga">olah raga</label>
+		<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Pesan dan Daerah</legend>
+		<textarea cols="100" rows="7" placeholder="textarea">pesan saya adalah...</textarea>
+		<br>
+		<select>
+			<optgroup label="favourite">
+				<option value="bdg">Bandung</option>
+				<option value="ygy">Yogyakarta</option>
+			</optgroup>
+			<optgroup label="other">
+				<option value="jkt">Jakarta</option>
+				<option value="smrg">Semarang</option>
+			</optgroup>
+		</select>
+		<br><br>
+		<input type="submit" value="kirim data">
+		<button type="submit">kirim</button>
+		<br>
+	</fieldset>
+</form>
+</body>
+</html>

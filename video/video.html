@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>struktur baru</title>
+	<style>
+		body {
+			font-family: verdana, sans-serif;
+			font-size: 12px;
+		}
+
+		header, nav, main, aside, footer {
+			border: 1px solid grey;
+			margin: 5px;
+			padding: 5px;
+		}
+
+		main {
+			float: left;
+			width: 60%;
+		}
+
+		aside {
+			float: left;
+			width: 30%;
+		}
+
+		footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1>Belajar Programming</h1>
+		<h2>bersama sekolah koding</h2>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<article>
+			<video width="400" controls>
+ 				<source src="Belajar Coding Itu MUDAH lohhh !!!.mp4" type="video/mp4">
+ 				<source src="Belajar Coding Itu MUDAH lohhh !!!.ogg" type="video/ogg">
+  				Your browser does not support HTML video.
+			</video>
+
+			<form>
+				<input type="search" name="search" placeholder="search..">
+			<input type="email" name="email" placeholder="email" required>
+			<input name="startdate" min="2018-01-01" max="2020-01-01" type="date">
+			<input type="url" name="url" required placeholder="website">
+			<input type="color">
+			<input type="submit">
+			</form>
+			
+			<!-- untuk input lihat di "html5doctor.com/html5-forms-input-types" -->
+			<!-- required pad form untuk mewajibkan isi jika tdk mau silahkan hapus -->
+
+			<figure>
+				<img src="nafrozen.png" alt="logo" width="200px" height="200px">
+				<figcaption>
+					Gambar Logo dari Admin pada tahun 2020
+					<a href="sekolahkoding.com">Website sekolah koding</a>
+				</figcaption>
+			</figure>
+
+			<dialog open>
+				ini website tutorial sekolah koding
+			</dialog>
+
+			<details open>
+				<!-- atribut open agar langsung terbuka
+					jika tidak mau silahkan hilangkan-->
+				<summary>
+					info sekolah koding
+				</summary>
+				<p> selamat datang di website kami </p>
+			</details>
+			
+			<h1>Daftar Pelajaran</h1>
+
+			<section>
+				<h2>HTML</h2>
+				<p>Membuat Struktur Website dengan HTML</p>
+			</section>
+
+			<section>
+				<h2>CSS</h2>
+				<p>Menghias Website dengan CSS</p>
+			</section>
+
+			<section>
+				<h2>Javascript</h2>
+				<p>Membuat Website Lebih Interaktif dengan Javascript</p>
+			</section>
+		</article>
+		
+	</main>
+
+	<aside>
+		<h2>Daftar Artikel</h2>
+		<ul>
+			<li><a href="#">Intro HTML</a></li>
+			<li><a href="#">Mulai Belajar Website</a></li>
+			<li><a href="#">Berguru Sampai ke Negeri Coding</a></li>
+		</ul>
+	</aside>
+
+	<footer>
+		<p>&copy; 2016 Sekolah Koding</p>
+	</footer>
+
+</body>
+</html>
