@@ -9,8 +9,5 @@
             "email": "atha.3417@gmail.com",
             "homepage": "http://example.com/"
         }
-    ],
-    "require": {
-        "php": "^7.2.3"
-    }
+    ]
 }
